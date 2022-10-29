@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 
 const Products = () => {
-const [product, setProduct] = useState(null)
+const [product, setProduct] = useState([])
 const router = useRouter()
 const { id } = router.query
 
